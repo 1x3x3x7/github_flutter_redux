@@ -33,6 +33,7 @@ dependencies:
   http: ^0.13.3
   redux: ^5.0.0
   flutter_redux: ^0.8.2 
+  flutter_redux_navigation: ^0.7.0
   cupertino_icons: ^1.0.2
 
 dev_dependencies:

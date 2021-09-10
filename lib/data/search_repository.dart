@@ -1,5 +1,5 @@
 import 'package:github_flutter_redux/data/app_client.dart';
-import 'package:github_flutter_redux/data/search_repositories_response.dart';
+import 'package:github_flutter_redux/domain/search_repositories_response.dart';
 
 class SearchRepository {
   final AppClient appClient;

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:github_flutter_redux/data/exceptions.dart';
+import 'package:github_flutter_redux/domain/exceptions.dart';
 import 'package:http/http.dart' as http;
 
 class AppClient {

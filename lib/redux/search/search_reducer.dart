@@ -1,5 +1,5 @@
-import 'package:github_flutter_redux/redux/search_actions.dart';
-import 'package:github_flutter_redux/redux/search_state.dart';
+import 'package:github_flutter_redux/redux/search/search_actions.dart';
+import 'package:github_flutter_redux/redux/search/search_state.dart';
 import 'package:redux/redux.dart';
 
 final searchReducer = combineReducers<SearchState>([

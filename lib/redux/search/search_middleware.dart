@@ -1,8 +1,7 @@
 import 'package:github_flutter_redux/data/api_response.dart';
 import 'package:github_flutter_redux/data/search_repository.dart';
-import 'package:github_flutter_redux/redux/app_state.dart';
-import 'package:github_flutter_redux/redux/search_actions.dart';
-import 'package:github_flutter_redux/redux/search_state.dart';
+import 'package:github_flutter_redux/redux/search/search_actions.dart';
+import 'package:github_flutter_redux/redux/search/search_state.dart';
 import 'package:redux/redux.dart';
 
 class SearchMiddleware implements MiddlewareClass<SearchState> {
