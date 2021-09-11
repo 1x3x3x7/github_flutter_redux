@@ -6,8 +6,8 @@ import 'package:github_flutter_redux/data/app_client.dart';
 import 'package:github_flutter_redux/data/repo_repository.dart';
 import 'package:github_flutter_redux/data/search_repository.dart';
 import 'package:github_flutter_redux/common/extensions.dart';
-import 'package:github_flutter_redux/presentation/home_screen.dart';
-import 'package:github_flutter_redux/presentation/repo_screen.dart';
+import 'package:github_flutter_redux/presentation/home/home_screen.dart';
+import 'package:github_flutter_redux/presentation/repo/repo_screen.dart';
 import 'package:github_flutter_redux/redux/app/app_reducer.dart';
 import 'package:github_flutter_redux/redux/app/app_state.dart';
 import 'package:github_flutter_redux/redux/repo/repo_middleware.dart';
@@ -16,7 +16,7 @@ import 'package:redux/redux.dart';
 
 class App extends StatelessWidget {
   final theme = ThemeData(
-    primarySwatch: Colors.blue,
+    primarySwatch: Colors.blueGrey,
     visualDensity: VisualDensity.adaptivePlatformDensity,
   );
 

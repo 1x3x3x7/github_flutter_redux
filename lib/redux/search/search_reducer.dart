@@ -8,7 +8,7 @@ final searchReducer = combineReducers<SearchState>([
 ]);
 
 SearchState _onLoad(SearchState state, SearchResultLoadAction action) =>
-    state.copyWith();
+    state.copyWith(query: action.query);
 
 SearchState _onLoaded(SearchState state, SearchResultLoadedAction action) =>
     state.copyWith(response: action.data);

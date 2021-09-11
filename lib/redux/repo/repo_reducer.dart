@@ -7,7 +7,8 @@ final repoReducer = combineReducers<RepoState>([
   TypedReducer<RepoState, RepoLoadedAction>(_onLoaded),
 ]);
 
-RepoState _onLoad(RepoState state, RepoLoadAction action) => state.copyWith();
+RepoState _onLoad(RepoState state, RepoLoadAction action) =>
+    state.copyWith(owner: action.owner, repo: action.repo);
 
 RepoState _onLoaded(RepoState state, RepoLoadedAction action) =>
     state.copyWith(response: action.data);
